@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+// import { Analytics } from "@vercel/analytics/next"
 import { LoadingScreen } from "@/components/loading-screen"
 import "./globals.css"
 
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} font-sans antialiased scanline`}>
         <LoadingScreen />
         {children}
-        <Analytics />
+        {/* <Analytics /> */}
       </body>
     </html>
   )
