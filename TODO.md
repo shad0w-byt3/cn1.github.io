@@ -22,4 +22,5 @@
 - [x] Create custom BAT favicon with black bat and green neon edges
 - [x] Replace favicon.png with favicon.svg
 - [x] Update layout.tsx to use new favicon
-- [ ] Test favicon display in browser
+- [x] Test favicon display in browser
+- [x] Push changes to GitHub repository cn1.github.io
