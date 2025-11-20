@@ -33,7 +33,7 @@ const staticProjects: Project[] = [
     description: "Advanced web application vulnerability scanner with custom payloads for OWASP Top 10 testing",
     image: "/mobile-app-health-wellness-interface.jpg",
     tags: ["Python", "Burp Suite", "OWASP", "Web Security"],
-    github_url: "https://github.com/example/web-scanner",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 2,
   },
