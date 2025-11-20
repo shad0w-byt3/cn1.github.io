@@ -71,32 +71,32 @@ export function Hero() {
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-4">
               <a
-                href="https://github.com/batman"
+                href="https://github.com/shad0w-byt3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-primary transition-all hover:scale-110"
               >
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com/in/batman"
+                href="https://linkedin.com/in/ntwali-ivan-b25a3a252/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-secondary transition-colors"
+                className="text-muted-foreground hover:text-secondary transition-all hover:scale-110"
               >
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="https://twitter.com/batman"
+                href="https://twitter.com/shad0w__byt3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                className="text-muted-foreground hover:text-accent transition-all hover:scale-110"
               >
                 <Twitter className="h-6 w-6" />
               </a>
               <a
-                href="mailto:batman@protonmail.com"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                href="mailto:hero.cn1@gmail.com"
+                className="text-muted-foreground hover:text-primary transition-all hover:scale-110"
               >
                 <Mail className="h-6 w-6" />
               </a>
