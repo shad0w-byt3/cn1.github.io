@@ -63,7 +63,7 @@ const staticProjects: Project[] = [
     description: "Isolated environment for analyzing malicious software with automated reporting",
     image: "/brand-identity-design-mockup.jpg",
     tags: ["Python", "Malware", "Analysis", "Security"],
-    github_url: "https://github.com/example/malware-analysis",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 5,
   },
