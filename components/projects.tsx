@@ -73,7 +73,7 @@ const staticProjects: Project[] = [
     description: "Real-time security monitoring dashboard with alerts and incident response",
     image: "/modern-dashboard-analytics-interface.jpg",
     tags: ["React", "Node.js", "Security", "Monitoring"],
-    github_url: "https://github.com/example/security-dashboard",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 6,
   },
