@@ -43,7 +43,7 @@ const staticProjects: Project[] = [
     description: "Comprehensive wireless network security assessment toolkit for WiFi penetration testing",
     image: "/modern-ecommerce-interface.png",
     tags: ["Bash", "Aircrack-ng", "WiFi", "Security"],
-    github_url: "https://github.com/example/wireless-audit",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 3,
   },
