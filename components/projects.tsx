@@ -53,7 +53,7 @@ const staticProjects: Project[] = [
     description: "Collection of cryptographic utilities and implementations for secure communication protocols",
     image: "/abstract-creative-workspace-design.jpg",
     tags: ["Python", "Cryptography", "Security"],
-    github_url: "https://github.com/example/crypto-toolkit",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 4,
   },
