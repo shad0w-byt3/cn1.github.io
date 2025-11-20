@@ -23,7 +23,7 @@ const staticProjects: Project[] = [
     description: "Custom automated framework for network vulnerability assessment and exploitation using Python, Nmap, and Metasploit",
     image: "/modern-dashboard-analytics-interface.jpg",
     tags: ["Python", "Nmap", "Metasploit", "Security"],
-    github_url: "https://github.com/example/network-pentest",
+    github_url: "https://github.com/shad0w-byt3/cn1.github.io",
     live_url: null,
     order_index: 1,
   },
