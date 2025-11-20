@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cn1.github.io/sitemap.xml
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /favicon.ico
+Disallow: *.json$
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
