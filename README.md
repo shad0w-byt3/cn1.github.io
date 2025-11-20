@@ -1,17 +1,31 @@
-# Batman Security Portfolio
+# 🦇 Batman Security Portfolio V2.0
 
-A modern, responsive portfolio website for showcasing cybersecurity projects and penetration testing expertise.
+> Elite Cybersecurity Expert & Penetration Tester Portfolio
 
-## 🚀 Features
+A cutting-edge, professional portfolio website showcasing advanced cybersecurity projects, penetration testing expertise, and security research capabilities.
 
-- **Modern Design**: Built with Next.js 15, Tailwind CSS, and Radix UI
-- **3D Animations**: Interactive background animations using React Three Fiber
-- **Dark/Light Theme**: Seamless theme switching with system preference detection
-- **Responsive**: Mobile-first design that works on all devices
-- **Static Export**: Optimized for GitHub Pages deployment
-- **SEO Optimized**: Comprehensive metadata and structured data
-- **Contact Form**: Functional contact form with email integration
-- **Project Showcase**: Dynamic project cards with GitHub links
+## ✨ Key Features
+
+- 🎨 **Modern Batman Theme** with golden accents and glassmorphism design
+- 🌐 **3D Background Animations** powered by React Three Fiber
+- 📱 **Fully Responsive** mobile-first design with fluid animations
+- 🎯 **SEO Optimized** with comprehensive metadata and structured data
+- ⚡ **Lightning Fast** with Next.js 15 and static optimization
+- 🔗 **Live Project Demos** with GitHub integration
+- 📧 **Smart Contact Form** with email client integration
+- 🌓 **Dark/Light Theme** with smooth transitions
+- 📊 **Interactive Components** with micro-interactions
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS 4.0 with custom Batman theme
+- **UI Components**: Radix UI with glassmorphism effects
+- **3D Graphics**: React Three Fiber + Three.js
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Typography**: Space Grotesk & JetBrains Mono
+- **Deployment**: GitHub Pages with automated workflow
 
 ## 📁 Project Structure
 
