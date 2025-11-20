@@ -20,11 +20,11 @@ const staticProjects: Project[] = [
   {
     id: "1",
     title: "Network Penetration Testing Framework",
-    description: "Custom automated framework for network vulnerability assessment and exploitation using Python, Nmap, and Metasploit",
+    description: "Advanced automated framework for comprehensive network vulnerability assessment and exploitation. Features custom exploit development and automated reconnaissance capabilities.",
     image: "/modern-dashboard-analytics-interface.jpg",
-    tags: ["Python", "Nmap", "Metasploit", "Security"],
+    tags: ["Python", "Nmap", "Metasploit", "Security", "Automation"],
     github_url: "https://github.com/shad0w-byt3/cn1.github.io",
-    live_url: null,
+    live_url: "https://github.com/shad0w-byt3/cn1.github.io",
     order_index: 1,
   },
   {
