@@ -136,7 +136,7 @@ export function Contact() {
                 {isSuccess ? (
                   <>
                     <CheckCircle2 className="mr-2 h-5 w-5" />
-                    Message Sent!
+                    Opening Email Client...
                   </>
                 ) : (
                   <>
