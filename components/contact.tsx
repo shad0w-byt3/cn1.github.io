@@ -142,7 +142,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="font-mono font-semibold mb-1">Email</h3>
-                  <p className="text-muted-foreground font-mono text-sm">batman@protonmail.com</p>
+                  <p className="text-muted-foreground font-mono text-sm">hero.cn1@gmail.com</p>
                 </div>
               </div>
             </div>
