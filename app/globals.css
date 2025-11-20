@@ -4,46 +4,47 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Cyberpunk color scheme with neon greens, cyans, and purples */
-  --background: oklch(0.08 0.02 240);
-  --foreground: oklch(0.95 0.01 180);
-  --card: oklch(0.12 0.03 240);
-  --card-foreground: oklch(0.95 0.01 180);
-  --popover: oklch(0.12 0.03 240);
-  --popover-foreground: oklch(0.95 0.01 180);
-  --primary: oklch(0.7 0.25 160);
-  --primary-foreground: oklch(0.08 0.02 240);
-  --secondary: oklch(0.65 0.22 190);
-  --secondary-foreground: oklch(0.08 0.02 240);
-  --muted: oklch(0.2 0.03 240);
-  --muted-foreground: oklch(0.6 0.02 180);
-  --accent: oklch(0.6 0.25 300);
-  --accent-foreground: oklch(0.95 0.01 180);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.98 0.005 85);
-  --border: oklch(0.25 0.05 240);
-  --input: oklch(0.2 0.03 240);
-  --ring: oklch(0.7 0.25 160);
-  --chart-1: oklch(0.7 0.25 160);
-  --chart-2: oklch(0.65 0.22 190);
-  --chart-3: oklch(0.6 0.25 300);
-  --chart-4: oklch(0.75 0.2 140);
-  --chart-5: oklch(0.55 0.28 320);
-  --radius: 0.25rem;
-  --sidebar: oklch(0.12 0.03 240);
-  --sidebar-foreground: oklch(0.95 0.01 180);
-  --sidebar-primary: oklch(0.7 0.25 160);
-  --sidebar-primary-foreground: oklch(0.08 0.02 240);
-  --sidebar-accent: oklch(0.2 0.03 240);
-  --sidebar-accent-foreground: oklch(0.95 0.01 180);
-  --sidebar-border: oklch(0.25 0.05 240);
-  --sidebar-ring: oklch(0.7 0.25 160);
+  /* Batman-themed dark color scheme with golden accents */
+  --background: oklch(0.09 0.01 240);
+  --foreground: oklch(0.95 0.01 60);
+  --card: oklch(0.12 0.02 240);
+  --card-foreground: oklch(0.95 0.01 60);
+  --popover: oklch(0.12 0.02 240);
+  --popover-foreground: oklch(0.95 0.01 60);
+  --primary: oklch(0.75 0.15 65);
+  --primary-foreground: oklch(0.09 0.01 240);
+  --secondary: oklch(0.25 0.02 240);
+  --secondary-foreground: oklch(0.95 0.01 60);
+  --muted: oklch(0.18 0.02 240);
+  --muted-foreground: oklch(0.65 0.01 60);
+  --accent: oklch(0.35 0.03 240);
+  --accent-foreground: oklch(0.95 0.01 60);
+  --destructive: oklch(0.6 0.2 20);
+  --destructive-foreground: oklch(0.98 0.01 60);
+  --border: oklch(0.22 0.03 240);
+  --input: oklch(0.18 0.02 240);
+  --ring: oklch(0.75 0.15 65);
+  --chart-1: oklch(0.75 0.15 65);
+  --chart-2: oklch(0.45 0.15 240);
+  --chart-3: oklch(0.35 0.12 240);
+  --chart-4: oklch(0.55 0.18 20);
+  --chart-5: oklch(0.65 0.2 280);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.12 0.02 240);
+  --sidebar-foreground: oklch(0.95 0.01 60);
+  --sidebar-primary: oklch(0.75 0.15 65);
+  --sidebar-primary-foreground: oklch(0.09 0.01 240);
+  --sidebar-accent: oklch(0.18 0.02 240);
+  --sidebar-accent-foreground: oklch(0.95 0.01 60);
+  --sidebar-border: oklch(0.22 0.03 240);
+  --sidebar-ring: oklch(0.75 0.15 65);
 
-  /* Custom cyberpunk colors */
-  --neon-green: oklch(0.7 0.25 160);
-  --neon-cyan: oklch(0.65 0.22 190);
-  --neon-purple: oklch(0.6 0.25 300);
-  --neon-pink: oklch(0.65 0.28 340);
+  /* Custom Batman theme colors */
+  --batman-gold: oklch(0.75 0.15 65);
+  --batman-dark: oklch(0.09 0.01 240);
+  --batman-gray: oklch(0.18 0.02 240);
+  --batman-light: oklch(0.35 0.03 240);
+  --batman-red: oklch(0.6 0.2 20);
 }
 
 .dark {
