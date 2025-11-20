@@ -105,18 +105,28 @@ export function Projects() {
               <div className="relative aspect-video overflow-hidden bg-muted">
                 <img
                   src={project.image || "/modern-dashboard-analytics-interface.jpg"}
-                  alt={project.title}
+                  alt={`Screenshot of ${project.title} security project`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  decoding="async"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement
-                    if (target.src.includes('modern-dashboard-analytics-interface.jpg')) {
-                      target.src = '/mobile-app-health-wellness-interface.jpg'
-                    } else if (target.src.includes('mobile-app-health-wellness-interface.jpg')) {
-                      target.src = '/modern-ecommerce-interface.png'
-                    } else if (target.src.includes('modern-ecommerce-interface.png')) {
-                      target.src = '/abstract-creative-workspace-design.jpg'
-                    } else if (target.src.includes('abstract-creative-workspace-design.jpg')) {
-                      target.src = '/brand-identity-design-mockup.jpg'
+                    const fallbackImages = [
+                      '/mobile-app-health-wellness-interface.jpg',
+                      '/modern-ecommerce-interface.png',
+                      '/abstract-creative-workspace-design.jpg',
+                      '/brand-identity-design-mockup.jpg',
+                      '/placeholder.jpg'
+                    ]
+
+                    const currentSrc = target.src
+                    const currentImage = fallbackImages.find(img => currentSrc.includes(img))
+
+                    if (currentImage) {
+                      const currentIndex = fallbackImages.indexOf(currentImage)
+                      const nextIndex = (currentIndex + 1) % fallbackImages.length
+                      target.src = fallbackImages[nextIndex]
                     } else {
                       target.src = '/placeholder.jpg'
                     }
