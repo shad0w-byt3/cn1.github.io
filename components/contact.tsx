@@ -19,6 +19,7 @@ export function Contact() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+  const [emailLink, setEmailLink] = useState("")
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -31,12 +32,25 @@ export function Contact() {
       formDataObj.append("subject", formData.subject)
       formDataObj.append("message", formData.message)
 
-      await submitContactForm(formDataObj)
+      const result = await submitContactForm(formDataObj)
 
-      setIsSuccess(true)
-      setFormData({ name: "", email: "", subject: "", message: "" })
+      if (result.success) {
+        setIsSuccess(true)
+        setEmailLink(result.emailLink || "")
+        setFormData({ name: "", email: "", subject: "", message: "" })
 
-      setTimeout(() => setIsSuccess(false), 5000)
+        // If email link provided, open it
+        if (result.emailLink) {
+          setTimeout(() => {
+            window.open(result.emailLink, '_blank')
+          }, 1000)
+        }
+
+        setTimeout(() => {
+          setIsSuccess(false)
+          setEmailLink("")
+        }, 8000)
+      }
     } catch (error) {
       console.error("Error submitting form:", error)
     } finally {
